@@ -15,7 +15,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-image:  url("/templates/static/images/chess-board-isolated-abstract-classic-blue-colorful-background-pattern-seamless-vector-illustration-wallpaper-texture-179422817.jpg");
+    background-image:  url("../images/chess-board-isolated-abstract-classic-blue-colorful-background-pattern-seamless-vector-illustration-wallpaper-texture-179422817.jpg");
     background-size: var(--background-size);
     color: white;
     animation: moveBackground 10s linear infinite;

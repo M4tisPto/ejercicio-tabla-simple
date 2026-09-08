@@ -23,11 +23,13 @@
                 </tr>
             </thead>
             <tbody>
+                {{% for usuario in registros %}}
                 <tr class="pure-table-odd">
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>{{ usuario.nombre }}</td>
+                    <td>{{ usuario.apellido }}</td>
+                    <td>{{ usuario.edad }}</td>
                 </tr>
+                {{ % endfor %}}
             </tbody>
         </table>
     </main>
