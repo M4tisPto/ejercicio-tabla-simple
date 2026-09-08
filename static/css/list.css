@@ -15,7 +15,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-image: url("/templates/static/images/chess-board-isolated-abstract-classic-blue-colorful-background-pattern-seamless-vector-illustration-wallpaper-texture-179422817.jpg");
+    background-image:  url("/templates/static/images/chess-board-isolated-abstract-classic-blue-colorful-background-pattern-seamless-vector-illustration-wallpaper-texture-179422817.jpg");
     background-size: var(--background-size);
     color: white;
     animation: moveBackground 10s linear infinite;
@@ -41,3 +41,26 @@ header{
 
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #0f0f1a;
+    color: #00ffaa;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    border-radius: 8px;
+    overflow: hidden;
+}
+/* thead, tbody{
+
+} */
