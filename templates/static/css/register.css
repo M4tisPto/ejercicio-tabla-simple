@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --background-size: 700px;
+}
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("/templates/static/images/chess-board-isolated-abstract-classic-blue-colorful-background-pattern-seamless-vector-illustration-wallpaper-texture-179422817.jpg");
+    background-size: var(--background-size);
+    color: white;
+    animation: moveBackground 10s linear infinite;
+}
+
+@keyframes moveBackground{
+    from {background-position: 0.0;}
+    to {background-position: var(--background-size) var(--background-size);}
+}
+
+header{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #00ffaa;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+    background-color: #0f0f1a;
+
+}
+
+input, select, textarea, button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button, input {
+  overflow: visible;
+}
+
+main{
+  background-color: #0f0f1a;
+  color: #e0e0ff;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label{
+    display: block;
+  color: #00ffaa;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+}
+
+input{
+    width: 100%;
+  background-color: #1a1a2e;
+  color: #ffffff;
+  border: 2px solid #3d3d5c;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 3px 0 14px 0px;
+  font-family: inherit;
+  font-size: inherit;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus{
+  border-color: #00ffaa;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 255, 170, 0.25);
+}
+
