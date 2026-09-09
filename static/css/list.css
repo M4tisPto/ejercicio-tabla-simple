@@ -49,18 +49,31 @@ main{
 }
 
 table{
-    border-collapse: collapse;
     width: 100%;
-    max-width: 800px;
-    margin: 20px auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #0f0f1a;
+    color: white;
+
+}
+
+th, td{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #00ffaa;
+}
+
+th{
     background-color: #0f0f1a;
     color: #00ffaa;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 14px;
-    line-height: 1.6;
-    border-radius: 8px;
-    overflow: hidden;
 }
-/* thead, tbody{
 
-} */
+tr{
+    background-color: #1a1a2e;
+    font-size: 18px;
+}
+
+th, tr, td{
+    text-align: center;
+
+}

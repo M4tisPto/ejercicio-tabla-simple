@@ -22,6 +22,8 @@ CREATE TABLE IF NOT EXISTS `lista_usuarios`.`usuarios` (
   `nombre` VARCHAR(45) NULL,
   `apellido` VARCHAR(45) NULL,
   `edad` INT NULL,
+  `created_at` DATETIME NULL,
+  `updated_at` DATETIME NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;
 

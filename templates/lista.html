@@ -23,13 +23,13 @@
                 </tr>
             </thead>
             <tbody>
-                {{% for usuario in registros %}}
+                {% for usuario in todos_los_usuarios %}
                 <tr class="pure-table-odd">
                     <td>{{ usuario.nombre }}</td>
                     <td>{{ usuario.apellido }}</td>
                     <td>{{ usuario.edad }}</td>
                 </tr>
-                {{ % endfor %}}
+                {% endfor %}
             </tbody>
         </table>
     </main>
